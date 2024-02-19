@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kumbha Srinija</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Technologies</a></li>
+          <li><a href="#certificate">Certificates</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kumbha Srinija</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Technologies</a></li>
+          <li><a href="#internships" onclick="toggleMenu()">Internships</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src ="./assets/img_of_me.jpg" alt="jonh dee profile picture"  style="border-radius: 555px;"/>
+
+      </div>
+      <div class="section__text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Kumbha Srinija</h1>
+        <p class="section_text_p2">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Srinija.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/srinija-kumbha-681362222'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/kumbha123'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1" align="center">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/My_img_1.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech</p>
+              <p>CSE</p>
+              <p>NARASARAOPETA ENGINEERING COLLEGE</p>
+              <p>7.9 CGPA</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>INTERMEDIATE</p>
+              <p>MPC</p>
+              <P>VAGDEVI JUNIOR COLLEGE</P>
+              <P>6.34 CGPA</P>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>10TH</p>
+              <P>SWAMI SCHOOL</P>
+              <P>7.8 CGPA</P>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              A passionate and aspiring web developer, eager to build innovative and user-centric experiences for the web. While I may be a fresher in the professional world, my journey into web development has been fueled by a relentless curiosity and a love for problem-solving.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    &nbsp;
+    &nbsp;
+    <section id="experience">
+      <p class="section_text_p1"></p>
+      <h1 class="title">Technologies</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+          
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MYSQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+
+            </div>
+          </div>
+ 
+ 
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certificate'"
+      />
+    </section>
+
+    <section id="certificate">
+      <p class="section_text_p1"></p>
+      <h1 class="title">Certifications</h1>
+
+      <div class="certificate-details-container2">
+        <div class="details-container2">
+            
+            <div>
+                <div>
+                  <h4><img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />The Joy Computing using Python from NPTEL</h4>
+                   <h3><img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />Azure Fundamentals from MICROSOFT</h3>
+                  <h3><img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />Power Platform Fundamentals from MICROSOFT</h3>
+                  <h3><img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />Python from Microsoft</h3>
+                  <h3><img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />AI-900 from MICROSOFT</h3>
+            </div>
+        </div>
+      </div>
+    
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#internships'"
+      />
+    </section>
+
+      <section id="internships">
+        <p class="section_text_p1"></p>
+        <h1 class="title">Internships</h1>
+  
+        <div class="internship-details-container3">
+          <div class="details-container3">
+            <div>
+                <div>
+                     <h3><img
+                      src="./assets/intern.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />1 month internship in Web Development at TechnoHacks EduTech.</h3>
+                    <h3><img
+                      src="./assets/intern.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />1 month internship in web Development at Oasis InfoByte.</h3>
+                    <h3><img
+                      src="./assets/intern.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />1 months internship in Salesforce Developer in Bodhasoft.</h3>
+                    <h3><img
+                      src="./assets/intern.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />3 months internship in Full Stack Web Development in Slash Mark.</h3>
+              </div>
+          </div>
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        />
+    </section>
+
+    <section id="projects">
+      <p class="section_text_p1" align="center">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Guster_img.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Gesture controlling using hands without using mouse</h2>
+            <h3> Project Description:</h3>
+            <p >It describes how hand gestures are trained to perform certain actions like switching pages scrolling up or down in a page. Owing to these properties our interface can be used as a virtual mouse for controlling any Windows application. </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Blood_img.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Online Blood Donation Community</h2>
+            <h3> Project Description:</h3>
+            <p>This project helps to give information about to who people have rare blood grops or people who don't receive blood on time are not able to sustain. So it's helps identify people with requried blood group and hospitals which are near.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section_text_p1" align="center">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">kumbhasrinija123@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/srinija-kumbha-681362222">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Technology</a></li>
+            <li><a href="#certificate">Certificates</a></li>
+            <li><a href="#internships">Internships</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Srinija. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
